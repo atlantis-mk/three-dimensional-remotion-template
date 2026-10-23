@@ -1,0 +1,15 @@
+.DS_Store
+**/node_modules/
+**/.cache/
+**/.remotion/
+**/dist/
+**/build/
+**/coverage/
+*.tsbuildinfo
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+/work/
+/tests/artifacts/

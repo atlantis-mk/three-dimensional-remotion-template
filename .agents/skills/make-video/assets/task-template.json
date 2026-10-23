@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0",
+  "status": "not_started",
+  "stage": "intake",
+  "updated_at": null,
+  "brief": {
+    "topic": null,
+    "title": null,
+    "requirements": [],
+    "assumptions": []
+  },
+  "video": {
+    "aspect_ratio": null,
+    "width": null,
+    "height": null,
+    "fps": null,
+    "duration_seconds": null,
+    "duration_in_frames": null
+  },
+  "audio": {
+    "voiceover": null,
+    "music": null
+  },
+  "assets": [],
+  "timeline": [],
+  "cover": {
+    "title": null,
+    "concept": null
+  },
+  "project": {
+    "path": "work/project/",
+    "entrypoint": null,
+    "composition_id": null
+  },
+  "deliverables": [],
+  "completed_stages": [],
+  "open_questions": [],
+  "issues": [],
+  "checks": [],
+  "artifacts": [],
+  "next_action": "开始视频制作时，按 AGENTS.md 读取模板与已有素材，核实实际模板是否齐备，再补齐必要需求。"
+}

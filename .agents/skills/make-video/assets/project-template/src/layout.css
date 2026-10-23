@@ -1,0 +1,29 @@
+/* 本模板新增：强调色变量 + 竖版（720×1280 设计基准）布局。横版沿用参考样片 style.css。 */
+em,.section-label{color:var(--accent,#cf302f)}
+.metric,.final-metric,.expansion-metric{border-left-color:var(--accent,#cf302f)}
+.progress>div,.intro-line{background:var(--accent,#cf302f)}
+.cycle-word.lit{border-color:var(--accent,#cf302f)}
+.metric .expansion-profit{margin-top:4px}
+.horizontal .growth-cycle{top:118px}
+.vertical .topline{top:48px;left:40px;right:40px}
+.vertical .section-label{top:104px;left:40px;font-size:16px}.vertical .section-label span{font-size:22px}
+.vertical .intro-copy{left:48px;right:48px;top:150px}
+.vertical h1{font-size:58px}
+.vertical .metric{left:40px;right:40px;width:auto;top:160px;bottom:auto;padding:18px 24px}
+.vertical .metric-caption{font-size:20px}.vertical .metric-value{font-size:72px}.vertical .metric-value span{font-size:22px}.vertical .metric-note{font-size:18px}
+.vertical .expansion-profit{font-size:38px}
+.vertical .growth-cycle{top:auto;bottom:250px;gap:8px;font-size:22px;flex-wrap:wrap;padding:0 24px}
+.vertical .cycle-word{padding:6px 8px}
+.vertical .assumption{right:40px;bottom:205px;font-size:15px}
+.vertical .subtitle{bottom:120px;left:36px;right:36px;font-size:34px;line-height:1.4}
+.section-tag{font-style:normal;font-family:'PingFang SC',sans-serif;font-size:12px;letter-spacing:1px;color:#fff;background:var(--accent,#cf302f);padding:2px 7px;border-radius:3px}.vertical .section-tag{font-size:16px}
+.outro-card{position:absolute;left:0;right:0;top:250px;text-align:center}
+.chart{position:absolute;right:46px;bottom:110px;width:300px;height:230px;display:flex;gap:18px;align-items:flex-end;padding:14px 16px 0;background:#f2f1e5e6;border-radius:5px;box-shadow:0 5px 14px #293a4324}
+.chart-col{flex:1;height:100%;display:flex;flex-direction:column;justify-content:flex-end;align-items:center}
+.chart-bar{width:70%;background:linear-gradient(#e0473f,var(--accent,#cf302f));border-radius:3px 3px 0 0}
+.chart-val{font-family:Arial,sans-serif;font-weight:800;font-size:18px;color:#253238;margin-bottom:6px}
+.chart-label{font-size:11px;color:#647176;padding:6px 0 8px;text-align:center;white-space:nowrap}
+.vertical .chart{left:40px;right:40px;width:auto;top:420px;bottom:auto;height:260px}
+.vertical .chart-val{font-size:24px}.vertical .chart-label{font-size:15px}
+.horizontal .chart{top:110px;bottom:auto;height:210px}
+.vertical .chart{top:auto;bottom:300px;height:230px}

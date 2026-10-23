@@ -1,0 +1,32 @@
+{
+  "name": "three-dimensional-miniature-business-template",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "remotion studio src/index.ts --port=3077",
+    "studio": "remotion studio src/index.ts --port=3077",
+    "typecheck": "tsc --noEmit",
+    "compositions": "remotion compositions src/index.ts",
+    "render": "remotion render src/index.ts Main out/video-16x9.mp4",
+    "render:vertical": "remotion render src/index.ts MainVertical out/video-9x16.mp4",
+    "still": "remotion still src/index.ts Main out/frame.png --frame=0"
+  },
+  "dependencies": {
+    "@react-three/fiber": "9.8.2",
+    "@remotion/cli": "4.0.535",
+    "@remotion/three": "4.0.535",
+    "@remotion/zod-types": "4.0.535",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "remotion": "4.0.535",
+    "three": "0.186.1",
+    "zod": "4.5.4"
+  },
+  "devDependencies": {
+    "@types/react": "19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@types/three": "0.186.0",
+    "esbuild": "0.28.1",
+    "typescript": "7.0.2"
+  }
+}
